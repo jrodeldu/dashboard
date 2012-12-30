@@ -1,0 +1,89 @@
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span3">
+
+			<ul id="main-nav" class="nav nav-tabs nav-stacked accordion">
+
+					<li <?php if ( $this->uri->segment(2) == 'dashboard') echo'class="active"' ?>>
+						<a href="<?php echo base_url(); ?>admin/dashboard">
+							<i class="icon-home"></i>
+							Dashboard
+						</a>
+					</li>
+
+					<li <?php if ( $this->uri->segment(2) == 'tareas') echo'class="active"' ?>>
+						<a href="<?php echo base_url(); ?>admin/tareas">
+							<i class="icon-tasks"></i>
+							Tareas
+						</a>
+					</li>
+
+					<li <?php if ( $this->uri->segment(2) == 'log') echo'class="active"' ?>>
+						<a href="<?php echo base_url(); ?>admin/log">
+							<i class="icon-eye-open"></i>
+							Log
+						</a>
+					</li>
+
+					<?php if($this->session->userdata('is_admin')) : ?>
+					<li <?php if ( $this->uri->segment(3) == 'signup') echo'class="active"' ?>>
+						<a href="<?php echo base_url(); ?>admin/users/signup">
+							<i class="icon-user"></i>
+							Cuentas de Usuario
+						</a>
+					</li>
+					<?php endif ?>
+
+					<li <?php if ( $this->uri->segment(3) == 'edit_password') echo'class="active"' ?>>
+						<a href="<?php echo base_url(); ?>admin/users/edit_password">
+							<i class="icon-pencil"></i>
+							Editar datos
+						</a>
+					</li>
+
+					<?php if($this->session->userdata('is_admin')) : ?>
+					<li <?php if ( $this->uri->segment(2) == 'formulario' || $this->uri->segment(2) == 'calendario' || $this->uri->segment(2) == 'upload' || $this->uri->segment(2) == 'gantt' || $this->uri->segment(2) == 'barcode' || $this->uri->segment(2) == 'graficas' || $this->uri->segment(2) == 'saneamiento' ) echo'class="active"' ?>>
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#main-nav" href="#collapse_forms">
+							<i class="icon icon-th-list"></i>
+							<span>Pruebas</span> <span class="label label-warning pull-right">8</span>
+						</a>
+						<ul id="collapse_forms" class="accordion-body collapse <?php if ( $this->uri->segment(2) == 'formulario' || $this->uri->segment(2) == 'calendario' || $this->uri->segment(2) == 'upload' || $this->uri->segment(2) == 'gantt' || $this->uri->segment(2) == 'barcode' || $this->uri->segment(2) == 'graficas' || $this->uri->segment(2) == 'saneamiento') echo 'in'; ?>">
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/calendario">
+								<i class="icon-plus-sign"></i> Calendario</a>
+							</li>
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/upload">
+								<i class="icon-plus-sign"></i> Subida de imágenes</a>
+							</li>
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/formulario">
+								<i class="icon-plus-sign"></i> Formulario base</a>
+							</li>
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/formulario/tiny_mce">
+								<i class="icon-plus-sign"></i> Formulario base TinyMCE</a>
+							</li>
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/gantt">
+								<i class="icon-plus-sign"></i> Diagrama de Gantt</a>
+							</li>
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/barcode">
+								<i class="icon-plus-sign"></i> Código de Barras</a>
+							</li>
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/graficas">
+								<i class="icon-plus-sign"></i> Gráficas</a>
+							</li>
+							<li class="accordion-inner">
+								<a href="<?php echo base_url(); ?>admin/saneamiento">
+								<i class="icon-plus-sign"></i> Saneamiento y marca de agua</a>
+							</li>
+						</ul>
+					</li>
+					<?php endif ?>
+
+				</ul>
+
+			</div><!--/span menu-->

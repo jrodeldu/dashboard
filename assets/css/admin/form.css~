@@ -1,0 +1,23 @@
+      body {
+        margin: 0;
+        background: #CCC url(assets/images/admin/fon/fon.png) repeat top left;
+        color: black;
+        font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+      }
+
+      form.login {
+        width: 25em;
+        margin: 1em auto 0 auto;
+        padding: 1em;
+        background: white url(assets/images/admin/fon/cab.jpg) repeat-x left top;
+        border-bottom: 1px solid #919C9B;
+        border-right: 1px solid #919C9B;
+      }
+
+      form.login h1{
+        margin: 0 0 0.7em 0;
+        background: url(assets/images/admin/logo.gif) no-repeat left 50%;
+        padding: 0 0 0 3em;
+        color: white;
+        font-size: 1.6em;
+      }

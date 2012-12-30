@@ -1,0 +1,94 @@
+/*reset*/
+input,textarea,select {font:1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;}
+/*comun*/
+form {margin:1em 0;}
+form fieldset {border:0 solid #fff;}
+form fieldset legend {
+text-align:left;
+/*@mod segun visual.css*/font-size:1.7em;
+/*@mod*/color:#C33300;
+text-shadow: 3px 2px 2px #C8C8C8;
+}
+header form fieldset legend, footer legend, .productopage legend {
+display: none;
+}
+input,textarea,select {vertical-align:middle;width:auto;color:#7F7E7E;border:1px solid #7F7E7E; vertical-align:middle; letter-spacing:0.03em;}
+input,textarea {margin:0.2em 0; padding:0.1em 0.2em 0.2em 0.2em;}
+select {padding:0.1em;}
+input:focus,textarea:focus {color:#555555; background:#fff; /*@mod*/border:1px solid #A0A0A0;}
+form fieldset *.disabled {color:#808080;}
+form fieldset dl dd img, form.abc fieldset p img {vertical-align:middle;}
+
+/*a-b: elemento por linea <dl>*/
+form.a-b fieldset dl {padding:0.2em; margin:0.5em 0; text-align:left;}
+form.a-b fieldset dl dt {font-weight:bold;}
+form.a-b fieldset dl dd {margin:0.5em 0.2em 1em 0;}
+
+/*ab: etiqueta y campo en una linea <dl>*/
+form.ab fieldset dl {margin:0.5em 0;}
+form.ab fieldset dl dt {font-weight:bold;}
+form.ab fieldset dl dt label {float:left; width:30%; padding:0 1em; text-align:right;}
+form.ab fieldset dl dt label, form.ab fieldset dl dd input {vertical-align:middle;}
+form.ab fieldset dl dd {margin-top:0;}
+form.ab fieldset dl dd input {width:18em; margin: 0 0.5em;}
+form.ab fieldset dl dd textarea {width:20em;}
+/*si b muy alto*/form.ab fieldset dl dt label.alto {/*@mod*/padding-bottom:2em;}
+
+/*abc: todo en una linea <p>*/
+form.abc fieldset {margin:0 1em; text-align:center;}
+form.abc fieldset p {margin:0.5em 0;}
+form.abc fieldset.btn input {margin:0;}
+
+/*btn: botones*/
+fieldset.btn {border-style:none;background-color:transparent;background-image:none;text-align:center;}
+ /*input[type=submit]*/
+fieldset.btn input {border:1px solid #999;border-bottom-color:#013578;border-right-color:#013578;}
+form.a-b fieldset.btn, form.ab fieldset.btn {margin:1em 0;}
+form.a-b fieldset.btn input, form.ab fieldset.btn input, form.abc fieldset.btn input {
+font-size:1.3em;/*@mod segun visual.css*/
+/*@mod*/background:#c2d8ef url(../img/fon/boton.jpg) repeat-x left top;
+}
+
+/*check/radio*/
+ /*input[type=checkbox],input[type=radio]*/
+input.radiobtn,input.checkbx, /*@mod*/.colder ul li label input.checkbx {width:auto;text-align:left;vertical-align:middle;border:none;background:none;}
+
+/*wide: campos al 100%*/
+form.wide * input,form.wide * textarea {width:92%;}
+form.wide fieldset.btn input {width:auto;}
+/*ancho auto*/
+form fieldset dl dd input.anchoauto {width:auto;}
+
+/*validacion*/
+input.fielderror,textarea.fielderror,select.fielderror {border:1px solid #c60000; background:#ffffc1;}
+.formerror {border:2px solid #c60000; background:url(../images/ico/atention.png) no-repeat 10px 7px #ffffce; padding:1em; margin:1em;}
+.formerror h3 {color:#c60000; background:#ffffce; padding:0 1em 0 3.5em;}
+.formerror ul {margin-left:3em;}
+.formerror ul li {list-style-type:none; padding-left:1.2em;}
+.formerror ul li a {color:#000; font-weight:bold;}
+form fieldset dl.error {border:2px dotted #c60000; background-color:#ffffce; padding:0.5em;}
+form fieldset dl.error dd img {vertical-align:top; margin-top:0.5em;}
+form fieldset dl.error input, form fieldset dl.error textarea {border:2px solid #c60000;}
+form fieldset dl.error strong {font-family:Helvetica, Arial, sans-serif; color:#c60000;}
+form fieldset dl.error dd a:link,form fieldset dl.error dd a:visited,form fieldset dl.error dd a:hover {color:#000;}
+p.fail {color:#B40404; margin: -0.7em 0 1em; font-size: 1.17em;}
+p.fail a:link, p.fail a:active, p.fail a:visited, p.fail a:hover {color:#b40404; text-decoration:underline;}
+p.fail a:hover {text-decoration: none;}
+
+/*@mod AAMBA*/
+#cuenta form fieldset {padding:0; border:none;}
+#cuenta form fieldset legend {display:none;/*bug FF:position:absolute; left:-9999px; width:990px;*/}
+#cuenta form fieldset dl {padding:0 0.5em 0 0.8em; margin:0;}
+#cuenta form fieldset dl dt, #cuenta form fieldset dl dd {margin:0;}
+
+.separador {margin-left:1em;}
+
+#conten form.a-b fieldset, #conten form.ab fieldset {margin:0 1em;}
+#conten form.a-b fieldset dl dd.li img {margin-left:0.5em;}
+
+#conten form.ab .colizq fieldset dl dt label {width:35%;}
+/*#conten form.ab .colizq fieldset dl dd input {width:18em;}
+#conten form.ab .colizq fieldset dl dd textarea {width:17em;}*/
+
+/*Formularios - R.3.0.4.020209*/
+/*copyright IT7 (jquevedo@it7.info). May not be reproduced.*/

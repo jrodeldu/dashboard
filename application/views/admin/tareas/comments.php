@@ -1,0 +1,42 @@
+    <ul class="recent-posts">
+        <?php foreach ($comentarios as $comentario) { ?>
+        <li>
+            <div class="info-thumb">
+                <img width="40" height="40" src="<?php echo base_url(); ?>assets/img/avatars/thumbs/<?php echo $this->session->userdata('avatar'); ?>" alt="User">
+            </div>
+            <div class="article-post">
+                <span class="info"> Por: <?php echo $comentario->username; ?> el <?php echo strftime("%d de %B de %Y a las %H:%M:%S", strtotime($comentario->created_at)) ?>
+               <?php if (!empty($comentario->updated_at) && ($comentario->updated_at > $comentario->created_at)) { ?>
+                   <span class="label label-info">Editado a <?php echo strftime("%d de %B de %Y a las %H:%M:%S", strtotime($comentario->updated_at)) ?></span>
+               <?php } ?></span>
+                <p>
+                    <?php echo $comentario->comentario; ?>
+                </p>
+                <?php if($this->session->userdata('username') == $comentario->username) { ?>
+
+                <!-- enlace disparador del Modal -->
+                <a class="btn btn-primary btn-mini" role="button" data-toggle="modal" href="#myModal<?php echo $comentario->id; ?>">Edit</a>
+
+                <!-- Modal -->
+                <div id="myModal<?php echo $comentario->id; ?>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Editar Comentario</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form id="<?php echo $comentario->id; ?>" class="editar_comentario" action="<?php echo base_url(); ?>admin/tarea_comentario/edit/<?php echo $this->uri->segment(4); ?>/<?php echo $comentario->id; ?>" method="post" class="AdvancedForm form-horizontal">
+                            <input class="comentario_edit span12" type="text" name="comentario_edit" value="<?php echo $comentario->comentario; ?>">
+                            <div class="modal-footer">
+                                <a class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</a>
+                                <input type="submit" value="Editar" class="edit btn btn-primary" />
+                            </div>
+                        </form>
+                    </div> <!-- end Modal Body -->
+                </div><!-- end Modal -->
+
+                <a class="delete btn btn-danger btn-mini" href="<?php echo base_url(); ?>admin/tarea_comentario/drop/<?php echo $this->uri->segment(4); ?>/<?php echo $comentario->id; ?>">Delete</a>
+                <?php } ?>
+            </div>
+        </li>
+        <?php } ?>
+    </ul>

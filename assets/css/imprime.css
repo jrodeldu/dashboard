@@ -1,0 +1,54 @@
+/*area impresion*/
+body {
+width:98%;
+/*width:7in;*/
+border:0; margin:0; padding:0; 
+text-align:left;
+background-color:#fff;
+color:#000;
+font:12pt Georgia, "Times New Roman", Times, serif;
+}
+blockquote, pre {page-break-inside:avoid;}
+/*negrita*/
+strong,em {font-weight:bold;}
+/*desaparecen*/
+.noprint,.invisible,#cab,#men,.rel,form,#pie {display:none;}
+img {border:0;}
+.vevent * abbr[title] {border-bottom:none;}
+/*enlaces*/
+a:link,a:visited {color:#333; background-color:#fff; text-decoration:underline;}
+/*a:link:after, a:visited:after {content: " (" attr(href) ") ";}*/
+/*encabezados*/
+h1,h2,h3,h4,h5,h6 {
+font-weight:bold;
+margin:2pt 0;
+letter-spacing:1pt;
+line-height:160%;
+page-break-after:avoid;
+page-break-inside:avoid;
+}
+h4,h5,h6 {font-weight:normal;}
+h1 {font-size:20pt;}
+h2 {font-size:16pt;}
+h3 {font-size:14pt;}
+h4 {font-size:12pt;}
+h5 {font-size:11pt;}
+/*parrafos*/
+p {text-align:justify; line-height:160%;}
+/*listas*/
+ul {margin:0 0 0 1.5em; padding:0;}
+ul li,ol li {list-style-type:square; line-height:160%;}
+ul, ol, dl {page-break-before:avoid;}
+dl dt {font-weight:bold;}
+/*tablas*/
+table {margin:0 auto; width:95%; font-family:Georgia, "Times New Roman", Times, serif;}
+table caption {font-size:large; text-align:center;}
+table thead tr th {border:2px solid #000; font-weight:bold; text-align:center;}
+table tbody tr td {border:1px solid #ccc;}
+/*alineacion*/
+.centra {text-align:center;}
+.espacio {clear:both; height:0;}
+.alider {text-align:right;}
+
+/*Impresion - R.2.2.1.140109*/
+/*copyright IT7 - May not be reproduced.*/

@@ -1,0 +1,314 @@
+/* colores
+
+Gris texto: 5e5d5d
+gris enlaces: 7c7c7d
+azul enalce: 4679a8
+naranja enlaces: b35029
+azul fuerte:274a6d
+azul medio: 53789d
+azul flojo: 7194b7
+*/
+
+
+
+/*-----------------------------------  GLOBAL  -----------------------------------*/
+
+body {
+background: url(../images/fon/bg.jpg) repeat top center;
+color: #5e5d5d;	
+}
+a:link, a:active, a:visited {
+text-decoration:none;
+}
+
+
+/*-----------------------------------  TEXTO  -----------------------------------*/
+h2 {
+color: #274a6d;
+border-bottom: 1px solid #CCC;
+}
+h2, h3 {
+font-weight: normal; 
+}
+
+/*-----------------------------------  HEADER  -----------------------------------*/
+
+header{
+margin-top: 1em;
+}
+
+nav#main {
+font-size: 1.3em;	
+}
+
+nav#main ul{
+margin-top: 4.6em;
+text-align: right;
+background-color: #f9f9f9;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-left: 2em;
+padding: 0.2em 0;
+}
+
+nav#main ul li{
+display: inline;
+list-style: none;
+border-right: 2px solid #fff;
+margin: 0;
+padding: 0 0.7em;
+}
+
+nav#main ul li:last-child{
+border-right: none;
+}
+
+nav#main ul li a {
+color: #7c7c7d;	
+}
+
+nav#main ul li a:hover{
+text-decoration: none;
+color: #7194b7;
+}
+
+nav#main ul li a.activo {
+color: #DB4D1A; /*#4679a8*/
+font-weight: bold;	
+}
+
+header #banner{
+padding: 2em 0;	
+}
+
+/*-----------------------------------  CONTEN  -----------------------------------*/
+
+.conten img {
+border-radius: 9px;
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border: 3px solid #96abc0;
+width: 90%;
+}
+
+.conten h3, aside h3{
+font-size: 1.3em;	
+color: #53789d;
+margin: 1em 0 0.4em;
+}
+
+.conten ul li {
+border-left: 3px solid #4391B5;	
+list-style: none;
+margin: 0 0 0.5em 0.3em;
+padding-left: 0.4em;
+}
+
+.conten ul li span{
+font-weight:bold;
+font-size: 1.04em;
+}
+
+.conten p, aside p {
+font-size: 1.06em;	
+}
+
+.conten p a {
+color: #53789d;	
+}
+
+.conten.grid_12 h3, .conten.grid_12 p {
+margin-left: 1em;	
+}
+
+
+/*Trabajos*/
+
+ul#porfolio{
+padding-bottom: 1em;	
+border-bottom: 1px solid #CCCCCC;	
+}
+
+ul#porfolio li{
+list-style: none;
+display: inline;
+margin: 0;
+padding: 0.8em;
+border-right: 1px solid #fff;
+}
+
+ul#porfolio li:last-child{
+border-right: none;
+}
+
+ul#porfolio li.activo a{
+color: #4679a8;
+}
+
+ul#porfolio li a{
+font-size: 1.2em;
+color: #666;
+}
+
+dl.proyecto a, #mapa li a{
+color: #194166;
+font-weight:bold;		
+}
+dl.proyecto dd, #mapa ul li a{
+color: #999;
+font-style: italic;
+margin-bottom: 1em;
+}
+
+dl.proyecto dt{
+margin-bottom: 1em;    
+}
+
+dl.proyecto dt span{
+color: #999;
+font-style: italic;
+display: block; 
+}
+
+dl.proyecto .activo{
+margin-left: 1em;
+}
+
+dl.proyecto .activo a, dl.proyecto .activo {
+color: #DB4D1A;
+}
+
+dl.proyecto .activo{
+border-left: 4px solid #DB4D1A;
+padding-left: 0.3em;
+}
+
+.conten ul.proyecto li{
+margin-bottom: 10px;
+}
+
+#escaparate p{
+margin-top: 1.6em;
+width: 96%;
+text-align: right;
+}
+
+#escaparate p a{
+color: #4679a8;
+}
+
+#escaparate img{
+border: 2px solid #c4c4c4;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+#mapa{
+padding-left: 30px;	
+}
+
+
+/*-----------------------------------  ASIDE  -----------------------------------*/
+
+p.derecha{
+text-align: right;
+}
+
+p.mas {
+margin-top: -1.4em;
+margin-right: 0.6em;
+}
+
+p.mas a{
+color: #b35029;
+text-align: right;
+font-size: 1.2em;
+text-decoration: none;
+}
+
+p.boton {
+background-color: #C8C8C8;
+border-radius: 108px 108px 108px 108px;
+margin: 0 auto;
+padding: 0.6em 1em;
+text-align: right;
+width: 173px;
+}
+
+p.boton:hover{
+background-color: #D3D3D3;
+}
+
+p.boton a{
+color: #FFFFFF;	
+}
+
+/*-----------------------------------  FOOTER  -----------------------------------*/
+
+footer {
+border-top: 1px solid #CCC;
+text-align: center;
+margin-top: 2em;
+padding-top: 2em;	
+}
+
+footer ul li {
+list-style:none;
+display: inline;
+color: #828282;	
+}
+
+footer ul li a{
+color: #828282;
+}
+
+
+/*-----------------------------------  FORMULARIO  -----------------------------------*/
+
+form dl {
+margin-bottom: 1em;	
+}
+
+form input{
+height: 1.7em;
+}
+
+form textarea, form input{
+width: 97%;	
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #C9C9C9;
+background-color: #F9F9F9;
+font-size: 1em;
+}
+
+form input#bot {
+width: auto;
+background-color: #274A6D;
+color: white;
+font-size: 1.1em;
+font-weight: normal;
+padding: 0.3em 0.5em;
+height: auto;
+}
+
+form input#bot:hover {
+background-color: #3A5A7A;
+}
+
+form input:autofocus{
+background-color: #fff;
+border-color: #CCC;	
+}
+
+
+/*fuentes*/
+@font-face {
+	font-family: 'caviardreams';
+	src: url('../fuentes/caviardreams-webfont.eot');
+	src: local('caviardreams'), url('../fuentes/caviardreams-webfont.woff') format('woff'), url('../fuentes/caviardreams-webfont.ttf') format('truetype'), url('../fuentes/caviardreams-webfont.svg#CaviarDreamsRegular') format('svg');}
+
+/*copyright IT7. May not be reproduced.*/

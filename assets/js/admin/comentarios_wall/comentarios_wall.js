@@ -4,7 +4,7 @@ function load_messages(id){
     $('#comentario_tarea').val(null);
     // después de load se ejecuta el callback que añade(attach) un evento a los elementos que nos hacen falta
     // para los eventos delete y edit. Función on().
-    $('#comments').load('http://www.it7.info/admin/tareas/get_comments/'+id, function(){
+    $('#comments').load('http://localhost/jrodeldu_modules/admin/tareas/get_comments/'+id, function(){
         $('a.delete').on('click', { id_tarea:id }, delete_message);
         $('form.editar_comentario').on('submit', { id_tarea:id }, edit_message);
         $('.alert').slideUp(3000);
@@ -60,13 +60,13 @@ function add_message(id, data){
         type: 'POST',
         dataType: 'HTML',
         cache: false,
-        url: 'http://www.it7.info/admin/tarea_comentario/add/'+id,
+        url: 'http://localhost/jrodeldu_modules/admin/tarea_comentario/add/'+id,
         data: "comentario_tarea="+data,
         success:function(msg){
             //alert('add ajax');
             $('#comentario_tarea').val(null);
             // Mostramos mensaje devuelto.
-            $('#msg').html(msg);
+            //$('#msg').html(msg);
             // Recarga del div de comentarios.
             load_messages(id);
         }

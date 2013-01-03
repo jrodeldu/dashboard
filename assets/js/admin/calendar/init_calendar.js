@@ -17,7 +17,7 @@ $(document).ready(function(){
             events: function(start, end, callback) {
                 $.ajax({
                     cache: false,
-                    url: 'http://localhost/jrodeldu_modules/admin/calendario/get_events',
+                    url: '/admin/calendario/get_events',
                     dataType: 'json',
                     success: function(doc) {
                         // recogemos el json de la función.
@@ -41,7 +41,7 @@ $(document).ready(function(){
                 $.ajax({
                     type: "POST",
                     dataType: "html",
-                    url: 'http://localhost/jrodeldu_modules/admin/calendario/update_event/'+event.id+'/'+start+'/'+end,
+                    url: '/admin/calendario/update_event/'+event.id+'/'+start+'/'+end,
                     success: function(fun) {
                         $.gritter.add({
                           // (string | mandatory) the heading of the notification
@@ -66,7 +66,7 @@ $(document).ready(function(){
                 $.ajax({
                     type: "POST",
                     dataType: "html",
-                    url: 'http://localhost/jrodeldu_modules/admin/calendario/update_event/'+event.id+'/'+start+'/'+end,
+                    url: '/admin/calendario/update_event/'+event.id+'/'+start+'/'+end,
                     success: function(fun) {
                         $.gritter.add({
                           // (string | mandatory) the heading of the notification

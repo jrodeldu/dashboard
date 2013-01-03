@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"calendar",
+				"calendario_model"
+			],
+			[
+				"act",
+				"actualidad_model"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp j",
+				"Snippet: <script> (code.jquery.com)"
+			],
+			[
+				"boots na",
+				"Snippet: Bootstrap navigation bar"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/projectholidays/application/config/constants.php",
+		"/var/www/projectholidays/application/config/autoload.php",
+		"/var/www/projectholidays/application/config/config.php",
+		"/var/www/www.vacaciones.com/application/views/admin/test/forms/form_widget.php",
+		"/var/www/www.vacaciones.com/application/views/admin/_includes/aside.php",
+		"/var/www/www.vacaciones.com/system/core/Security.php",
+		"/var/www/www.vacaciones.com/assets/css/admin/bootstrap/bootstrap.css",
+		"/var/www/www.vacaciones.com/application/controllers/admin/calendario.php",
+		"/var/www/www.vacaciones.com/application/models/calendario_model.php",
+		"/var/www/www.vacaciones.com/application/models/log_model.php",
+		"/var/www/www.vacaciones.com/application/views/admin/calendar/index.php",
+		"/var/www/www.it7.info/assets/js/admin/comentarios_wall/comentarios_wall.js",
+		"/var/www/www.vacaciones.com/assets/js/admin/calendar/init_calendar.js",
+		"/var/www/www.vacaciones.com/application/controllers/admin/log.php",
+		"/var/www/www.vacaciones.com/application/views/admin/calendar/show.php",
+		"/var/www/www.vacaciones.com/application/views/admin/users/edit_password.php",
+		"/var/www/www.vacaciones.com/application/core/MY_Model.php",
+		"/var/www/www.vacaciones.com/application/models/users_model.php",
+		"/var/www/www.vacaciones.com/application/controllers/admin/users.php",
+		"/var/www/www.vacaciones.com/application/views/admin/calendar/calendar_widget.php",
+		"/var/www/www.vacaciones.com/application/views/admin/users/index.php",
+		"/var/www/www.vacaciones.com/application/views/admin/users/edit_password_success.php",
+		"/var/www/www.vacaciones.com/application/controllers/admin/dashboard.php",
+		"/var/www/www.vacaciones.com/application/config/routes.php",
+		"/var/www/www.vacaciones.com/application/config/config.php",
+		"/var/www/www.vacaciones.com/application/config/database.php",
+		"/var/www/www.vacaciones.com/application/views/admin/log/index.php",
+		"/var/www/www.vacaciones.com/application/controllers/access.php",
+		"/var/www/www.vacaciones.com/application/views/admin/log/show.php",
+		"/var/www/www.vacaciones.com/application/views/admin/_includes/header.php",
+		"/var/www/www.vacaciones.com/application/views/admin/test/calendar/calendar_widget.php",
+		"/var/www/www.vacaciones.com/assets/css/admin/datapicker.css",
+		"/var/www/www.vacaciones.com/application/controllers/admin/holidays.php",
+		"/var/www/www.it7.info/application/views/admin/_includes/aside.php",
+		"/var/www/www.vacaciones.com/.htaccess",
+		"/var/www/www.vacaciones.com/application/views/admin/index.php",
+		"/var/www/www.vacaciones.com/application/views/admin/proyectos/edit.php",
+		"/var/www/www.vacaciones.com/application/views/_includes/aside.php",
+		"/var/www/www.it7.info/application/config/config.php_",
+		"/var/www/luxury/administrator/components/com_icebooking/install.sql.php",
+		"/var/www/www.it7.info/system/libraries/Calendar.php",
+		"/var/www/www.it7.info/application/views/_includes/header.php",
+		"/var/www/MyDashboard/application/controllers/dashboard/actualidad.php",
+		"/var/www/MyDashboard/application/views/dashboard/main_table.php",
+		"/home/johnny/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/var/www/MyDashboard/application/config/database.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"csrf_show_error",
+			"csrf",
+			"<?php echo base_url(); ?>",
+			"contraseña",
+			"Introduzca",
+			"class=\"text validate[required]\" ",
+			"insert_log",
+			"calendar",
+			"selection",
+			"user",
+			"Contraseña",
+			"contraseña",
+			"Contraseña",
+			"row",
+			"<th>Fecha</th>",
+			"                      <th>Fecha</th>\n",
+			"<th>Fecha</th>",
+			"result",
+			"return",
+			"<?php echo base_url(); ?>admin/calendario/",
+			"tareas/edit/<?php echo $result->id",
+			"finicio",
+			"url",
+			"it7.info",
+			"url",
+			"img",
+			"flui"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"const",
+				"application/config/constants.php"
+			],
+			[
+				"auto",
+				"application/config/autoload.php"
+			],
+			[
+				"confi",
+				"application/config/config.php"
+			],
+			[
+				"rout",
+				"application/config/routes.php"
+			],
+			[
+				"show",
+				"application/views/admin/calendar/show.php"
+			],
+			[
+				"calendarmode",
+				"application/models/calendario_model.php"
+			],
+			[
+				"mymod",
+				"application/core/MY_Model.php"
+			],
+			[
+				"calenda",
+				"application/controllers/admin/calendario.php"
+			],
+			[
+				"boots",
+				"assets/css/admin/bootstrap/bootstrap.css"
+			],
+			[
+				"users",
+				"application/controllers/admin/users.php"
+			],
+			[
+				"head",
+				"application/views/admin/_includes/header.php"
+			],
+			[
+				"config",
+				"application/config/config.php"
+			],
+			[
+				"hea",
+				"application/views/admin/_includes/header.php"
+			],
+			[
+				"caleshow",
+				"application/views/admin/calendar/show.php"
+			],
+			[
+				"calendwi",
+				"application/views/admin/calendar/calendar_widget.php"
+			],
+			[
+				"sign",
+				"application/views/admin/users/signup.php"
+			],
+			[
+				"user",
+				"application/controllers/admin/users.php"
+			],
+			[
+				"useind",
+				"application/views/admin/users/index.php"
+			],
+			[
+				"caleindex",
+				"application/views/admin/calendar/index.php"
+			],
+			[
+				"init",
+				"assets/js/admin/calendar/init_calendar.js"
+			],
+			[
+				"edit",
+				"application/views/admin/users/edit_password.php"
+			],
+			[
+				"calewi",
+				"application/views/admin/calendar/calendar_widget.php"
+			],
+			[
+				"logmod",
+				"application/models/log_model.php"
+			],
+			[
+				"log",
+				"application/controllers/admin/log.php"
+			],
+			[
+				"caledarwid",
+				"application/views/admin/calendar/calendar_widget.php"
+			],
+			[
+				"edi",
+				"application/views/admin/users/edit_password.php"
+			],
+			[
+				"editpas",
+				"application/views/admin/users/edit_password_success.php"
+			],
+			[
+				"controlog",
+				"application/controllers/admin/log.php"
+			],
+			[
+				"dash",
+				"application/controllers/admin/dashboard.php"
+			],
+			[
+				"contruser",
+				"application/controllers/admin/users.php"
+			],
+			[
+				"usermod",
+				"application/models/users_model.php"
+			],
+			[
+				"aside",
+				"application/views/admin/_includes/aside.php"
+			],
+			[
+				"calenmod",
+				"application/models/calendario_model.php"
+			],
+			[
+				"vielog",
+				"application/views/admin/log/index.php"
+			],
+			[
+				"heade",
+				"application/views/admin/_includes/header.php"
+			],
+			[
+				"calen",
+				"application/models/calendario_model.php"
+			],
+			[
+				"acces",
+				"application/controllers/access.php"
+			],
+			[
+				"initcale",
+				"assets/js/admin/calendar/init_calendar.js"
+			],
+			[
+				"viecaleda",
+				"application/views/admin/calendar/calendar_widget.php"
+			],
+			[
+				"datecss",
+				"assets/css/admin/datapicker.css"
+			],
+			[
+				"cale",
+				"application/controllers/admin/calendario.php"
+			],
+			[
+				"viecalendar",
+				"application/views/admin/test/calendar/calendar_widget.php"
+			],
+			[
+				"viewuses",
+				"application/views/admin/users/edit_password.php"
+			],
+			[
+				"con",
+				"application/config/config.php"
+			],
+			[
+				"admasid",
+				"application/views/admin/_includes/aside.php"
+			],
+			[
+				"asi",
+				"application/views/_includes/aside.php"
+			],
+			[
+				"dat",
+				"application/config/database.php"
+			],
+			[
+				"calendar",
+				"system/libraries/Calendar.php"
+			],
+			[
+				"databa",
+				"application/config/database.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}

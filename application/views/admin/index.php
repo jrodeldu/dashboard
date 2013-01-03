@@ -11,7 +11,7 @@
                     <div class="hero-unit">
                         <h1>Gestión</h1>
                         <p>Este gestor está diseñado para modificar, eliminar y añadir información de cada sección presente en su web. Cada pestaña colocada en la parte izquierda le llevará a la gestión de la sección que necesite gestionar.</p>
-                        <p>Para la elaboración de este gestor, IT7 ha tenido en cuenta sus criterios de accesibilidad y usabilidad. Sin embargo, cada usuario tiene unas necesidades y unos usos diferentes,  por lo que si quiere comunicar sus impresiones sobre el gestor, utilice el <a href="gestion/contacto">formulario de contacto</a>.</p>
+                        <p>Para la elaboración de este gestor, se han tenido en cuenta sus criterios de accesibilidad y usabilidad. Sin embargo, cada usuario tiene unas necesidades y unos usos diferentes,  por lo que si quiere comunicar sus impresiones sobre el gestor, utilice el <a href="gestion/contacto">formulario de contacto</a>.</p>
                         <p>Agradeceremos que nos comunique qué defectos aprecia y qué mejoras podía tener. Haremos lo posible por solucionar esas deficiencias cuanto antes.</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                                     <tbody>
 
                                         <?php foreach($tareas as $row){ ?>
-                                        <?php  
+                                        <?php
                                         if($row->tipo == 'Programación'){
                                             $tipo = 'icon-wrench';
                                         }elseif($row->tipo == 'Diseño'){
@@ -55,7 +55,7 @@
 
                                         ?>
                                         <tr>
-                                            <td><a class="tooltip-top" data-original-title="Actualizar" 
+                                            <td><a class="tooltip-top" data-original-title="Actualizar"
                                                 href="<?php echo base_url(); ?>admin/tareas/show/<?php echo $row->id; ?>">
                                                 <i class="<?php echo $tipo; ?> "></i> <?php echo $row->entradilla; ?></a></td>
                                             <td class="centrado"><span class="<?php echo $estado; ?>"><?php echo $row->estado; ?></span></td>
@@ -67,5 +67,5 @@
                             </div>
                         </div>
                     </div><!--/span-->
-</div><!-- row -->
+                </div><!-- row -->
             </div><!--/span-->

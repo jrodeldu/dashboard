@@ -17,21 +17,8 @@ class Calendario extends MY_Controller {
 	}
 
 	public function get_events(){
-		/******* get_all ******/
-		//$results = $this->calendario_model->get_all(array('finicio' => '2012-12-17'), 'kaka'); // FUNCIONA
-		//$results = $this->calendario_model->get_all(array('finicio' => '2012-12-17')); // FUNCIONA
-		//$results = $this->calendario_model->get_all(1); // FUNCIONA
-		$results = $this->calendario_model->get_all(); // FUNCIONA
-		/******* get ******/
-		//$results = $this->calendario_model->get(1); // FUNCIONA
-		//$results = $this->calendario_model->get(array('id' => 5, 'finicio' => '2012-12-17')); // FUNCIONA
-		//$result = json_encode($results);
-		//echo $result;
-		/*
-		echo 'resultado: <br/>';
-		print_r($results);
-		*/
 
+		$results = $this->calendario_model->get_all();
 		// Una vez recogidos los eventos debemos asignar los valores devueltos con el
 		// nombre correspondiente para que el fullcalendar los reconozca.
 		if($results){
@@ -95,7 +82,7 @@ class Calendario extends MY_Controller {
 
 		}
 
-		$this->load->view('admin/_includes/template', $data);		
+		$this->load->view('admin/_includes/template', $data);
 
 	}
 

@@ -62,8 +62,8 @@
   <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/admin/procesar.js"></script>
 
   <!-- JavaScript jQuery -->
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-ui.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/admin/jquery.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/admin/jquery-ui.js"></script>
 
   <!-- Jquery Datapicker -->
   <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/admin/custom_datepicker.js"></script>
